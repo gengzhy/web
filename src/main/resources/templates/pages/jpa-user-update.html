@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spring-data-jpa 操作</title>
+</head>
+<body>
+    <#if (user.id)??>
+        <font color="blue">更新成功！${ts}</font><br>
+        ${user.id},
+        ${user.code},
+        ${user.name},
+        ${user.password}
+    <#else>
+        <b>更新成功!</b>神马也木有！
+    </#if>
+</body>
+</html>
